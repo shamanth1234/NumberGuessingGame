@@ -27,7 +27,7 @@ class NumberGuessinggame{
             n=sc.nextInt();
             obj.SetUserNumber(n);
             if(obj.getUserNumber()==obj.getComputerNumber()){
-                System.out.println("Congatulations brather!!!");
+                System.out.println("Congratulations brother!!!");
             }
             else if(obj.getUserNumber()>obj.getComputerNumber()){
                 System.out.println("The no. guessed is too high");
